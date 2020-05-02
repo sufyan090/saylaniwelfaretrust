@@ -1,0 +1,499 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TOP HEADER CSS START */
+
+.header{
+    background-color: royalblue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.header-top{
+    display: flex;
+    justify-content: center;
+}
+.header-top .social{
+    padding-top: 5px;
+    cursor: pointer;
+}
+.social i,img{
+    padding: 0px 10px 0px 5px;
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+.social i:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.social img:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+}
+.header-top .para{
+    padding-top: 5px;
+    color: white;
+}
+.header-top .donate{
+    padding-top: 5px;
+}
+.donate button{
+    height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+/* TOP HEADER CSS END */
+
+
+/* ------------------------------------------- */
+
+
+/* NAVBAR CSS START */
+
+.navbar{
+    background-color: white;
+    box-shadow: 10px 10px 15px grey;
+}
+.navbar .navbar-nav{
+    padding-right: 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    border-radius: 50px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.navbar .navbar-nav .nav-item .active{
+    background-color: black;
+    color: white!important;
+}
+.navbar .navbar-nav .dropdown-menu{
+    display: none;
+}
+.navbar .navbar-nav .dropdown:hover .dropdown-menu{
+    display: block;
+}
+/* NAVBAR CSS END */
+
+/* ------------------------------------------------ */
+
+
+/* CAROUSEL CSS START */
+
+.carousel-control-prev-icon:first-child{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.carousel-control-next-icon:first-child{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+/* CAROUSEL CSS END */
+
+/* ---------------------------------------------------- */
+
+
+/* NEWS SLIDER CSS START */
+
+.news-slider{
+    background-color: royalblue;
+    margin: 10px 0px 0px 0px;
+}
+.news-slider .news{
+    color: #00FF00;;
+    font-weight: bold;
+}
+.para{
+    color: white;
+}
+.news-slider span a{
+    color: darkblue;
+}
+
+/* NEWS SLIDER CSS END */
+
+
+/* ---------------------------------------------------------------- */
+
+
+
+
+/* INTRODUCTION CSS START */
+
+.introduction{
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+.introduction h1{
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.introduction span{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif!important;
+}
+.introduction .intro-image{
+    text-align: center;
+}
+.introduction .left-border{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 470px;
+}
+.introduction .right-border{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 470px;
+}
+.introduction .intro-para p{
+    font-weight: bold;
+    line-height: 30px;
+}
+
+/* INTRODUCTION CSS END */
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+/* DIVIDER SECTION CSS START */
+
+section{
+    width: 100%;
+    height: 100%;
+}
+.divider{
+    background-color: royalblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.divider h1,h5{
+    color: white;
+}
+.divider span{
+    color: #00FF00;
+}
+.divider .first-image{
+    padding: 50px 0px 0px 0px;
+    height: 250px;
+}
+
+
+/* DIVIDER SECTION CSS END */
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+/* CARDS SECTION CSS START */
+
+
+.main-cards{
+    width: 100%;
+    height: 100%;
+    background-color: lightcyan;
+    padding: 50px 0px 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cards h2{
+    color: royalblue;
+    font-weight: 600;
+}
+.cards span{
+    color: green;
+}
+.main-cards .left-border{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 470px;
+}
+.main-cards .right-border{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 470px;
+}
+.content{
+    padding: 25px 0px 0px 0px;
+}
+.main-cards .content .sadqah{
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.content .sadqah h4{
+    font-weight: 600;
+    margin-top: 20px;
+    color: royalblue;
+}
+.main-cards .content .welfare{
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.content .welfare h4{
+    font-weight: 600;
+    margin-top: 20px;
+    color: royalblue;
+}
+.main-cards .content .medical{
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.content .medical h4{
+    font-weight: 600;
+    margin-top: 20px;
+    color: royalblue;
+}
+.main-cards .content .dastarkhan{
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.content .dastarkhan h4{
+    font-weight: 600;
+    margin-top: 20px;
+    color: royalblue;
+}
+.main-cards .content .ro-plant{
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.content .ro-plant h4{
+    font-weight: 600;
+    margin-top: 20px;
+    color: royalblue;
+}
+.main-cards .content .education{
+    box-shadow: 10px 10px 10px grey;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.content .education h4{
+    font-weight: 600;
+    margin-top: 20px;
+    color: royalblue;
+}
+
+
+/* CARDS SECTION CSS START */
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+
+/* MISSION PROJECT CSS START */
+
+
+.mission-project{
+    margin: 50px auto;
+}
+.mission-project .mission-border{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hepatitis{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.housing{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.IT{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.tharparkar{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.mission-card{
+    margin: 5px ;
+}
+.mission-card h4{
+    font-size: 15px;
+}
+
+/* MISSION PROJECT CSS START */
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+/* GALLERY SECTION CSS START */
+
+#gallery{
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+#gallery h2{
+    color: royalblue;
+}
+#gallery span{
+    color: green;
+}
+#gallery h2,span{
+    font-weight: bold;
+}
+#gallery .left-border{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 730px;
+}
+#gallery .right-border{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 730px;
+}
+.gallery-item{
+    height: 200px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+.gallery-content .gallery-item img{
+    width: 200px;
+}
+.display{
+    margin-bottom: 20px;
+}
+/* GALLERY SECTION CSS END */
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+/* FOOTER SECTION CSS START */
+
+
+.footer{
+    background-color: #25272e;
+    color: white;
+}
+.widget ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.widget ul li i{
+    margin-right: 5px;
+}
+.footer-social h5{
+    margin-left: 50px;
+}
+.footer-social ul li{
+    display: inline-block;
+}
+.footer-social ul li i{
+    background-color: royalblue;
+    height: 30px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 50px;
+}
+.widget .footer-border{
+    background-color: green;
+    height: 5px;
+    width: 50px;
+}
+
+/* FOOTER SECTION CSS END */
+
+/* ------------------------------------------------------------------- */
+
+/* FOOTER COPYRIGHT SECTION CSS START */
+
+
+.copyright{
+    background-color: royalblue;
+    color: white;
+}
+.copyright p{
+    padding-top: 10px;
+}
+
+
+/* FOOTER COPYRIGHT SECTION CSS START */
